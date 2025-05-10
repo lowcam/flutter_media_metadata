@@ -22,8 +22,9 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'com.alexmercerind.flutter_media_metadata'
     compileSdkVersion 32
-
+    
     defaultConfig {
         minSdkVersion 16
     }

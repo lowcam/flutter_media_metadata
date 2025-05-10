@@ -105,7 +105,7 @@ class Strings {
                                     std::string replace) {
     std::string result;
     size_t match_size = match.size();
-    // size_t last_index = 0;
+    size_t last_index = 0;
     size_t match_counter = 0;
     for (int index = 0; index < string.size(); index++) {
       if (match_counter != 0) {
